@@ -4,35 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            background-color: lightblue;
+            border: 1px solid lightblue;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            height: fit-content;
+            padding-bottom: 20px;
+            margin-top: 15px;
+            width: 60%;
+            margin-left: 300px;
+            color: crimson;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 15pt;
+            font-style: italic;
+            color: black;
+        }
+        footer{
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
     <form action="">
-        <label for="text">Text</label><br>
-        <input type="text" name="text" placeholder="enter text"><br>
-        <label for="password">Password</label><br>
-        <input type="password" name="pass" placeholder="enter password"><br>
-        <label for="email">Email</label><br>
-        <input type="email" name="email" placeholder="enter email"><br>
+        <center><h1>REGISTRATION FORM</h1></center>
+        <label for="text">Text:</label><br>
+        <input type="text" name="text" placeholder="enter text"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="pass" placeholder="enter password"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" placeholder="enter email"><br><br>
         <label for="text">Date</label><br>
-        <input type="date" name="date"><br>
-        <label for="chechbox">checkbox</label><br>
-        <input type="checkbox"><br>
+        <input type="date" name="date"><br><br>
+        <label for="chechbox">checkboxes</label><br>
+        <input type="checkbox" checked>student<br>
+        <input type="checkbox">not schooled<br>
+        <input type="checkbox">employed<br><br>
         <label for="button">button</label><br>
-        <input type="button" name="button" value="click"><br>
+        <input type="button" name="button" value="click"><br><br>
         <label for="color">color</label><br>
-        <input type="color"><br>
+        <input type="color"><br><br>
         <label for="file">choose files</label><br>
-        <input type="file"><br>
+        <input type="file"><br><br>
         <label for="submit">submit button</label><br>
-        <input type="submit"><br>
+        <input type="submit"><br><br>
         <label for="reset">reset</label><br>
-        <input type="reset"><br>
-        <label for="radio">radio button</label><br>
-        <input type="radio"><br>
+        <input type="reset"><br><br>
+        <label for="radio">radio buttons</label><br>
+        <input type="radio" name="radio" checked>male<br>
+        <input type="radio" name="radio">female<br>
+        <input type="radio" name="radio">rather not say<br><br>
         <label for="tel">telephone number</label><br>
-        <input type="tel"><br>
-        <label for="search">search</label><br>
+        <input type="tel"><br><br>
+        <label for="search">search box</label><br>
         <input type="search"><br><br>
+        check box <br>
         <select name="select" id="">
             <option value="">maths</option>
             <option value="">physics</option>
@@ -42,4 +76,7 @@
 
     </form>
 </body>
+<footer>
+    &copy; Andreas-tailas
+</footer>
 </html>
